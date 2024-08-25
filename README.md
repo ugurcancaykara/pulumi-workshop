@@ -30,7 +30,7 @@ To manage IaC in a production-grade and mature way, there are several critical c
 
 - **Tool Maturity**
 - **Documentation Quality**
-- **Community and Support**
+
 
 [See Details](markdowns/tool-maturity-stability.md)
 
