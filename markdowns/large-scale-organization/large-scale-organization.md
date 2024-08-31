@@ -332,5 +332,7 @@ Effective project and stack organization are critical for managing large-scale i
 - [Organizational Infra Repo Pattern](https://www.pulumi.com/blog/organizational-patterns-infra-repo/)
 
 - [Structuring IaC](https://leebriggs.co.uk/blog/2023/08/17/structuring-iac)
+- [Another Example Structure of IaC](https://maheshchandraregmi.com.np/structuring-infrastructure-as-code-with-a-layered-approach)
 
 [Back to Workshop](../../README.md)
+

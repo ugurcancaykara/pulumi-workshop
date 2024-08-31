@@ -112,8 +112,6 @@ It is a pattern that facilitates collaboration between teams and focuses on havi
 
 
 
-[Explaining Monolith stack to Micro-stacks](https://blog.bitsrc.io/managing-micro-stacks-using-pulumi-87053eeb8678)
-- I think this medium blog will help you to understand difference between monolith and micro-stack architecture when it comes to Pulumi.
 [Development of Composable Software for Infrastructure with Bit](https://blog.bitsrc.io/modern-infrastructure-as-code-iac-with-independent-bit-components-e1acfccdffeb)
 - Can have a look, it's open-source and has enterprise features as well
     - It's kind of similar to Backstage, at some sense/level
