@@ -333,4 +333,4 @@ Effective project and stack organization are critical for managing large-scale i
 
 - [Structuring IaC](https://leebriggs.co.uk/blog/2023/08/17/structuring-iac)
 
-[Back to Workshop](../README.md)
+[Back to Workshop](../../README.md)

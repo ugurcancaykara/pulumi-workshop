@@ -1,0 +1,7 @@
+name: vpc
+runtime: go
+description: VPCproject
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-go

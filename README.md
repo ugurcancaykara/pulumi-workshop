@@ -34,14 +34,36 @@ To manage IaC in a production-grade and mature way, there are several critical c
 
 [See Details](markdowns/tool-maturity/tool-maturity.md)
 
-## **2. Large-Scale Project Organization**
+## **2. Pulumi Internals**
+- Projects
+- Stacks
+- Configuration
+- ESC
+- ApplyT
+- Get funcs
+
+
+## **3. Large-Scale Project Organization**
 
 - **Scalability**
 - **Tool Integration**
 
 [See Details](markdowns/large-scale-organization/large-scale-organization.md)
 
-## **3. GitOps Workflow Integration**
+
+
+## **4. Testing**
+
+- **Unit Tests**
+- **Property Tests**
+- **Integration Tests**
+
+
+[See Details](markdowns/testing/testing.md)
+
+
+
+## **5. GitOps Workflow Integration**
 
 - **GitOps Practices**
 - **Promotion and Versioning**
@@ -49,33 +71,49 @@ To manage IaC in a production-grade and mature way, there are several critical c
 
 [See Details](markdowns/cicd/gitops-integration.md)
 
-## **4. Extensibility and Flexibility**
 
-- **Customization**
+## **6. Platform Release Management**
+
+- **How to apply versioning at pulumi**
+- **Resource Management**
+- **Drift Management**
+- **Rollbacks**
+
+[See Details](markdowns/release-management/release-management.md)
+
+
+## **7. Extending Pulumi to some useful concepts**
+
 - **Observability**
 - **Cost Optimization**
 - **Policy Enforcement**
-- **Extending Capabilities**
 
-[See Details](markdowns/extending-pulumi/extensibility-flexibility.md)
+[See Details](markdowns/extending-pulumi/extensibility.md)
 
-## **5. Deployment and Rollback Management**
+## **8.Observability Driven Platform Development**
+- **Extending Pulumi**
+- **Observing infrastructure development**
 
-- **Resource Management**
-- **Drift Management**
-- **Complex Rollbacks**
+[See Details](markdowns/odpd/odpd.md)
 
-[See Details](markdowns/release-management/deployment-rollback.md)
+## **9.Pulumi Cloud vs. Custom State Backend**
+- **Debate on pulumi cloud features that are free and not free**
+- **Deciding which one to use at which type of customers, businesses etc.**
 
-## **6. Testing**
+[See Details](markdowns/pulumicloud/pulumi-cloud.md)
 
-- **Testing Process**
-- **Maintenance**
-- **Resource Lifecycle Management**
+## **10.Environment Discovery(IDP)**
+- Integration with backstage
+- Tracking the deployed resources
+- Discovering package ownerships
+- Self-service via code and UI(e.g Software templates at backstage)
+- Integrating with policies to prevent unwanted resource creations
+- Learning about composable Infrasturcture
 
-[See Details](markdowns/testing/testing.md)
+[See Details](markdowns/idp/idp.md)
 
-## **7. Team Adoption**
+
+## **11. Team Adoption**
 
 - **Team Adaptability**
 - **Team Training**

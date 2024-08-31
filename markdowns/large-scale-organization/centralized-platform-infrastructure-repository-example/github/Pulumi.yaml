@@ -1,0 +1,7 @@
+name: github
+runtime: go
+description: A minimal GitHub Go Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: github-go
