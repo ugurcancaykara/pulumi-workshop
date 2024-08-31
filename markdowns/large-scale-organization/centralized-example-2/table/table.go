@@ -7,9 +7,11 @@ import (
 
 func CreateTable(ctx *pulumi.Context) (*dynamodb.Table, error) {
 	dynamodbTable, err := dynamodb.NewTable(ctx, "basic-dynamodb-table", &dynamodb.TableArgs{
-		Name:        pulumi.String("testdb"),
-		BillingMode: pulumi.String("PROVISIONED"),
-		HashKey:     pulumi.String("UserId"),
+		Name:          pulumi.String("testdb"),
+		BillingMode:   pulumi.String("PROVISIONED"),
+		HashKey:       pulumi.String("UserId"),
+		ReadCapacity:  pulumi.Int(1),
+		WriteCapacity: pulumi.Int(1),
 		Attributes: dynamodb.TableAttributeArray{
 			&dynamodb.TableAttributeArgs{
 				Name: pulumi.String("UserId"),
