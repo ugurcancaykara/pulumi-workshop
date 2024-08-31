@@ -522,13 +522,13 @@ tasks:
 
 #### Usage Guidance
 
-- **For Development:** Use task run-infras -- PROJECT=your_project_name when you want to test changes locally or in a development environment without affecting other environments.
+- **For Development:** Use `task run-infras -- PROJECT=your_project_name` when you want to test changes locally or in a development environment without affecting other environments.
 
-- **For Deployment:** Use task deploy -- PROJECT=your_project_name when you are ready to deploy changes to a staging or production environment.
+- **For Deployment:** Use `task deploy -- PROJECT=your_project_name` when you are ready to deploy changes to a staging or production environment.
 
-- **For Refreshing State:** Use task refresh -- PROJECT=your_project_name to synchronize your Pulumi state with the actual cloud resources state.
+- **For Refreshing State:** Use `task refresh -- PROJECT=your_project_name` to synchronize your Pulumi state with the actual cloud resources state.
 
-- **For Destruction:** Use task destroy -- PROJECT=your_project_name when you need to tear down resources managed by Pulumi for a specific project.
+- **For Destruction:** Use `task destroy -- PROJECT=your_project_name` when you need to tear down resources managed by Pulumi for a specific project.
 
 ### Reference
 
