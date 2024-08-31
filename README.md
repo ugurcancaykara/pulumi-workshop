@@ -16,7 +16,7 @@ Focus on Pulumi's capabilities in managing cloud infrastructure specifically wit
 
 Over the past few years, I've worked extensively with Terraform and Terragrunt to orchestrate infrastructure as code (IaC). This involved organizing modules, using composition root modules, managing versioning, and employing pull request-based GitOps workflows.
 
-Now, you might be wondering, what's the goal here? Why am I writing this? Well, even though I use Terraform quite a bit for a while, I've found that its limitations as a DSL can be frustrating. But don't take this as a negative comment. Terraform is designed in such a way that the learning curve is short, so I could quickly start integrating it into my flow. So simplicity, maturity, low learning curve. Plus, with a large and active community, I never really felt alone when running into issues. This is not an attempt to criticize Terraform, but most of my experience is with Terraform and Terragrunt structures. I want to clarify that others might use these tools differently, and the limitations I perceive might be addressed in newer versions of Terraform (for instance, native testing functionality introduced after version 1.6.0, which I don't prefer to use to due to licensing(BUSL)). Therefore, my comparison will be based on my own experience.
+Now, you might be wondering, what's the goal here? Why am I writing this? Well, even though I have used Terraform quite a bit for a while, I've found that its limitations as a DSL can be frustrating. But don't take this as a negative comment. Terraform is designed in such a way that the learning curve is short, so I could quickly start integrating it into my flow. So simplicity, maturity, low learning curve. Plus, with a large and active community, I never really felt alone when running into issues. This is not an attempt to criticize Terraform, but most of my experience is with Terraform and Terragrunt structures. I want to clarify that others might use these tools differently, and the limitations I perceive might be addressed in newer versions of Terraform (for instance, native testing functionality introduced after version 1.6.0, which I don't prefer to use due to licensing(BUSL)). Therefore, my comparison will be based on my own experience.
 
 So, my intention isn't to say "use Pulumi instead of Terraform," but rather to explore how Pulumi could offer some win-win scenarios in the long run for individual projects, team efforts, or delivering high-quality services.
 
@@ -24,7 +24,7 @@ I also believe that simply choosing a tool based on reading documentation or bro
 
 ## **Critical Considerations**
 
-To manage IaC in a production-grade and mature way, there are several critical considerations I keep in mind when deciding to try out a new tool, I will share my insights of below given captions within an outline as follows-> Background, Timeline, Description, Comments and Snippets, Conclusion, References.
+To manage IaC in a production-grade and mature way, there are several critical considerations I keep in mind when deciding to try out a new tool, I will share my insights below-given captions within an outline as follows-> Background, Timeline, Description, Comments, and Snippets, Conclusion, References.
 
 ## **1. Tool Maturity**
 
@@ -98,17 +98,17 @@ To manage IaC in a production-grade and mature way, there are several critical c
 
 ## **9.Pulumi Cloud vs. Custom State Backend**
 - **Debate on pulumi cloud features that are free and not free**
-- **Deciding which one to use at which type of customers, businesses etc.**
+- **Deciding which one to use for which type of customers, businesses, etc.**
 
 [See Details](markdowns/pulumicloud/pulumi-cloud.md)
 
 ## **10.Environment Discovery(IDP)**
 - Integration with backstage
 - Tracking the deployed resources
-- Discovering package ownerships
+- Discovering package ownership
 - Self-service via code and UI(e.g Software templates at backstage)
 - Integrating with policies to prevent unwanted resource creations
-- Learning about composable Infrasturcture
+- Learning about composable Infrastructure
 
 [See Details](markdowns/idp/idp.md)
 
