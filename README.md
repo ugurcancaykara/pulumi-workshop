@@ -24,22 +24,22 @@ I also believe that simply choosing a tool based on reading documentation or bro
 
 ## **Critical Considerations**
 
-To manage IaC in a production-grade and mature way, there are several critical considerations I keep in mind when deciding to try out a new tool
+To manage IaC in a production-grade and mature way, there are several critical considerations I keep in mind when deciding to try out a new tool, I will share my insights of below given captions within an outline as follows-> Background, Timeline, Description, Comments and Snippets, Conclusion, References.
 
-## **1. Tool Maturity and Stability**
+## **1. Tool Maturity**
 
 - **Tool Maturity**
 - **Documentation Quality**
 
 
-[See Details](markdowns/tool-maturity-stability.md)
+[See Details](markdowns/tool-maturity/tool-maturity.md)
 
 ## **2. Large-Scale Project Organization**
 
 - **Scalability**
 - **Tool Integration**
 
-[See Details](markdowns/large-scale-organization.md)
+[See Details](markdowns/large-scale-organization/large-scale-organization.md)
 
 ## **3. GitOps Workflow Integration**
 
@@ -47,7 +47,7 @@ To manage IaC in a production-grade and mature way, there are several critical c
 - **Promotion and Versioning**
 - **Automated Rollbacks**
 
-[See Details](markdowns/gitops-integration.md)
+[See Details](markdowns/cicd/gitops-integration.md)
 
 ## **4. Extensibility and Flexibility**
 
@@ -57,7 +57,7 @@ To manage IaC in a production-grade and mature way, there are several critical c
 - **Policy Enforcement**
 - **Extending Capabilities**
 
-[See Details](markdowns/extensibility-flexibility.md)
+[See Details](markdowns/extending-pulumi/extensibility-flexibility.md)
 
 ## **5. Deployment and Rollback Management**
 
@@ -65,22 +65,22 @@ To manage IaC in a production-grade and mature way, there are several critical c
 - **Drift Management**
 - **Complex Rollbacks**
 
-[See Details](markdowns/deployment-rollback.md)
+[See Details](markdowns/release-management/deployment-rollback.md)
 
-## **6. Testing and Maintenance**
+## **6. Testing**
 
 - **Testing Process**
 - **Maintenance**
 - **Resource Lifecycle Management**
 
-[See Details](markdowns/testing-maintenance.md)
+[See Details](markdowns/testing/testing.md)
 
 ## **7. Team Adoption**
 
 - **Team Adaptability**
 - **Team Training**
 
-[See Details](markdowns/team-adoption.md)
+[See Details](markdowns/team-adoption/team-adoption.md)
 
 
 
